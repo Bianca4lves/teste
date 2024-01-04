@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BARRA DE MENU*/
+.topo {
+    width: 100%;
+    background-color: #604829;
+    position: fixed;
+    z-index: 1;
+}
+.topo img {
+    top: 0;
+    left: 15%;
+    width: 80px;
+    position: relative;
+}
+.topo div {
+    top: 30%;
+    right: 15%;
+    position: absolute;
+}
+.topo div a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color:#c4a47c;
+}
+
+/* CAPA */
+.capa-parallax1, .capa-parallax2, .capa-parallax3, .capa-parallax4, .capa-parallax5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* CAPA PARALLAX1 */
+.capa-parallax1 {
+    background-image: url(./IMG/parallax-imagem1.png);
+    height: 100vh;
+}
+.capa-parallax1 h1 {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 470%;
+    font-family: "Fraunces";
+}
+
+/* CAPA PARALLAX2 */
+.capa-parallax2  {
+    background-image: url(./IMG/parallax-imagem2.jpg);
+    height: 50vh;
+}
+.capa-parallax2 h3, .capa-parallax3 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: "Fraunces", serif;
+    background-color: #604829;
+    width: 500px;
+    padding: 10px 10px;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+/* CAPA PARALLAX3 */
+.capa-parallax3 {
+    background-image: url(./IMG/parallax-imagem3.jpg);
+    height: 50vh;
+}
+
+/*CONTEÚDO */
+.conteudo {
+    text-align: center;
+    padding: 80px 0px;
+    background-color: #f4f4f4;
+}
+.conteudo h2 {
+    color: #c4a47c;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.conteudo p {
+    line-height: 34px;
+    color: #666;
+    padding: 0px 257px;
+    max-width: 1024;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+}
+
+/* CONTATO */
+.capa-parallax4 {
+    background-image: url(./IMG/parallax-imagem4.png);
+    height: 110vh;
+}
+.capa-parallax4 h3 {
+    position: absolute;
+    width: 500px;
+    padding: 10px 10px;
+    top: 5%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    background-color: #604829;
+    color: white;
+}
+.capa-parallax4 iframe {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.9;
+    padding: 10px 10px;
+}
+.box-contato {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #604829;
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+}
+
+/* HORÁRIOS */
+.capa-parallax5 {
+    background-image: url(./IMG/parallax-imagem5.jpg);
+    height: 100vh;
+}
+.capa-parallax5 h3 {
+    max-width: 1024px;
+    text-align: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    letter-spacing: 8px;
+    font-size: 24px;
+}
+.lista-horarios {
+    max-width:  768px;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+    color: white;
+}
+.lista-horarios li {
+    position: relative;
+}
+.lista-horarios h4 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.lista-horarios li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #ACACAC;
+}
+.lista-horarios p, .marrom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald" sans-serif;
+}
+.lista-horarios li p {
+    color: #ACACAC;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.marrom {
+    padding-left: 15px;
+    color: #c4a47c;
+    text-align: left;
+}
+
+/* RODAPÉ */
+.rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+.rodape span {
+    color:#c4a47c;
+}
+.rodape a {
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-image: url(./IMG/seta-para-cima.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
